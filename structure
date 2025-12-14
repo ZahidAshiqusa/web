@@ -1,0 +1,33 @@
+ecommerce-project/
+├── public/
+│   ├── images/
+│   └── index.html
+├── src/
+│   ├── pages/
+│   │   ├── public/
+│   │   │   ├── Home.js
+│   │   │   ├── ProductDetail.js
+│   │   │   └── Cart.js
+│   │   └── seller/
+│   │       ├── Dashboard.js
+│   │       ├── AddProduct.js
+│   │       ├── ManageProducts.js
+│   │       └── ViewOrders.js
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── ProductCard.js
+│   │   └── ProtectedRoute.js
+│   ├── styles/
+│   │   └── main.css
+│   ├── utils/
+│   │   ├── api.js
+│   │   └── cloudinary.js
+│   └── App.js
+├── api/
+│   ├── products.js
+│   ├── orders.js
+│   └── webhooks/
+│       └── clerk.js
+├── package.json
+├── vercel.json
+└── .env.local
